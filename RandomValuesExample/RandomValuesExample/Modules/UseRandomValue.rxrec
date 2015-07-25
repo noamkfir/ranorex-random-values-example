@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.0.24580"
+id="5ca84ea6-94a9-471a-a6a1-7b83fc5cb52d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		UseRandomValue
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UseRandomValue"
+	namespace="RandomValuesExample.Modules"/>
+	<variables>
+		<var
+		name="Input"
+		id="f88116a5-9807-4eb6-be77-2ab7f24c165d">
+		</var>
+	</variables>
+	<recorditems>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="f489918f-0b4d-4ffd-8a08-a6193fb1cb9d"
+		KeySequence=""
+		presstime="100ms">
+			<comment/>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Input"/>
+			</bindings>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="RandomValuesExampleRepository"
+	id="63078378-6fe2-477f-bbf5-f137d4472463"
+	rxversion="5.4.0.24580"
+	relativepath="..\RandomValuesExampleRepository.rxrep">
+		<codegen
+		classname="RandomValuesExampleRepository"
+		namespace="RandomValuesExample"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="47fd7a9d-3b39-4525-9a75-0900ce2b3a52"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UseRandomValue.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

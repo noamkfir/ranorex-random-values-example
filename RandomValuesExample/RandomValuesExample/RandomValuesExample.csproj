@@ -72,6 +72,18 @@
       <UserCode>true</UserCode>
       <id>c575fe9d-87ac-480a-a65c-5db83b8455d6</id>
     </Compile>
+    <Compile Include="Modules\UseRandomValue.cs">
+      <BoundTo>fd7126c0-a04a-4fd6-b821-a86b6192e691</BoundTo>
+      <DependentUpon>UseRandomValue.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8ef099cf-1568-47ec-aff6-f87ff4dbd67b</id>
+    </Compile>
+    <Compile Include="Modules\UseRandomValue.UserCode.cs">
+      <BoundTo>fd7126c0-a04a-4fd6-b821-a86b6192e691</BoundTo>
+      <DependentUpon>UseRandomValue.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>35bf8307-4b19-4d1a-b956-993578e49d49</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>2364c8ae-0701-487f-a20c-2d3dc5e1d55a</id>
     </Compile>
@@ -88,6 +100,11 @@
       <BoundTo>a5deb7dc-e381-46bb-8fe3-4eedf8210b4f</BoundTo>
       <id>1ccccada-da35-4856-bd21-73da6149f090</id>
       <recordtableid>a642db3a-f20a-42ae-bf29-fd66caad495d</recordtableid>
+    </None>
+    <None Include="Modules\UseRandomValue.rxrec">
+      <BoundTo>a5deb7dc-e381-46bb-8fe3-4eedf8210b4f</BoundTo>
+      <id>fd7126c0-a04a-4fd6-b821-a86b6192e691</id>
+      <recordtableid>5ca84ea6-94a9-471a-a6a1-7b83fc5cb52d</recordtableid>
     </None>
     <None Include="RandomValuesExampleRepository.rximg">
       <BoundTo>a5deb7dc-e381-46bb-8fe3-4eedf8210b4f</BoundTo>
