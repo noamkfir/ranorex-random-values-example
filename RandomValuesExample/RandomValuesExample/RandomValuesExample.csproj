@@ -57,6 +57,9 @@
     <Compile Include="AssemblyInfo.cs">
       <id>499f130f-cc4b-4ff7-9b31-2678ed257247</id>
     </Compile>
+    <Compile Include="Modules\GenerateRandomNumber.cs">
+      <id>c87bacaa-97e8-496c-8b75-fc2e791a1f4b</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>2364c8ae-0701-487f-a20c-2d3dc5e1d55a</id>
     </Compile>
