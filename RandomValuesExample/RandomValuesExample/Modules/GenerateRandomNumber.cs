@@ -26,6 +26,14 @@ namespace RandomValuesExample.Modules
     [TestModule("52E22C2C-3B3D-49BB-B7E5-8235A39FD79D", ModuleType.UserCode, 1)]
     public class GenerateRandomNumber : ITestModule
     {
+    	string _Output = "";
+    	[TestVariable("9945BD00-61F9-4DBF-A281-E7504E64D01F")]
+    	public string Output
+    	{
+    		get { return _Output; }
+    		set { _Output = value; }
+    	}
+    	
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
