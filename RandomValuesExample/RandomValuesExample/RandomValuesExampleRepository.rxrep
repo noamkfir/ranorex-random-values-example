@@ -1,0 +1,18 @@
+﻿<repository
+name="RandomValuesExampleRepository"
+id="63078378-6fe2-477f-bbf5-f137d4472463"
+rxversion="5.4.0.24580">
+  <codegen
+  classname="RandomValuesExampleRepository"
+  namespace="RandomValuesExample"/>
+  <rootfolder
+  name="Root"
+  id="47fd7a9d-3b39-4525-9a75-0900ce2b3a52"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>
