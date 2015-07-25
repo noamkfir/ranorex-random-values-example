@@ -60,6 +60,18 @@
     <Compile Include="Modules\GenerateRandomNumber.cs">
       <id>c87bacaa-97e8-496c-8b75-fc2e791a1f4b</id>
     </Compile>
+    <Compile Include="Modules\LaunchNotepad.cs">
+      <BoundTo>1ccccada-da35-4856-bd21-73da6149f090</BoundTo>
+      <DependentUpon>LaunchNotepad.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>51eb5634-1ffc-4eea-bc72-9f21cb1be406</id>
+    </Compile>
+    <Compile Include="Modules\LaunchNotepad.UserCode.cs">
+      <BoundTo>1ccccada-da35-4856-bd21-73da6149f090</BoundTo>
+      <DependentUpon>LaunchNotepad.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c575fe9d-87ac-480a-a65c-5db83b8455d6</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>2364c8ae-0701-487f-a20c-2d3dc5e1d55a</id>
     </Compile>
@@ -71,6 +83,11 @@
     </Compile>
     <None Include="app.config">
       <id>2d62b183-cac8-4220-9a87-8b27964ff37e</id>
+    </None>
+    <None Include="Modules\LaunchNotepad.rxrec">
+      <BoundTo>a5deb7dc-e381-46bb-8fe3-4eedf8210b4f</BoundTo>
+      <id>1ccccada-da35-4856-bd21-73da6149f090</id>
+      <recordtableid>a642db3a-f20a-42ae-bf29-fd66caad495d</recordtableid>
     </None>
     <None Include="RandomValuesExampleRepository.rximg">
       <BoundTo>a5deb7dc-e381-46bb-8fe3-4eedf8210b4f</BoundTo>
