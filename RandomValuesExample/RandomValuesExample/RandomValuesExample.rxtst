@@ -9,6 +9,7 @@ placescreenshotsinfolder="True"
 ReportTime="RelativeToTestSuiteStartTime"
 reportwriteinterval="30000ms"
 reportcompress="False"
+progressdialog="False"
 enabletracingscreenshots="True"
 TracingScreenshotMode="Foreground"
 TracingScreenshotQuality="40"
@@ -16,7 +17,23 @@ reportlevel="Info;20">
 	<content>
 		<testcase
 		name="TestCase"
-		id="498a1b99-1e2d-4a2a-a00b-6302f49b3d63"/>
+		id="498a1b99-1e2d-4a2a-a00b-6302f49b3d63">
+			<testmodule
+			name="GenerateRandomNumber"
+			id="5f1a851a-8140-46cc-90b6-0f4c8131b1d6"
+			ref="52e22c2c-3b3d-49bb-b7e5-8235a39fd79d"
+			type="UserCode"/>
+			<testmodule
+			name="LaunchNotepad"
+			id="fed20989-bbf6-4df7-b4bb-bb04efacbb4a"
+			ref="a642db3a-f20a-42ae-bf29-fd66caad495d"
+			type="Recording"/>
+			<testmodule
+			name="UseRandomValue"
+			id="463602c7-9665-4bbc-917e-ebe966a18317"
+			ref="5ca84ea6-94a9-471a-a6a1-7b83fc5cb52d"
+			type="Recording"/>
+		</testcase>
 	</content>
 	<testconfigurations
 	default="TestRun">
