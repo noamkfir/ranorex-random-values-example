@@ -66,18 +66,6 @@
       <RepositoryCode>true</RepositoryCode>
       <id>6e227d93-f8a9-4403-a301-b21da5a5adcf</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>85741ea1-02e6-4092-91f0-0cc3b407c498</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>29e826e3-04f9-4481-947e-14b82142f8f3</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>85741ea1-02e6-4092-91f0-0cc3b407c498</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>0524d00d-4c96-4c97-a6f3-e882a27f90df</id>
-    </Compile>
     <None Include="app.config">
       <id>2d62b183-cac8-4220-9a87-8b27964ff37e</id>
     </None>
@@ -91,11 +79,6 @@
       <id>a5deb7dc-e381-46bb-8fe3-4eedf8210b4f</id>
       <repoid>63078378-6fe2-477f-bbf5-f137d4472463</repoid>
       <reporootid>47fd7a9d-3b39-4525-9a75-0900ce2b3a52</reporootid>
-    </None>
-    <None Include="Recording1.rxrec">
-      <BoundTo>a5deb7dc-e381-46bb-8fe3-4eedf8210b4f</BoundTo>
-      <id>85741ea1-02e6-4092-91f0-0cc3b407c498</id>
-      <recordtableid>446a4920-6f01-4ba2-a975-b0c11488d07e</recordtableid>
     </None>
     <Content Include="RandomValuesExample.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

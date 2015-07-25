@@ -1,16 +1,30 @@
 ﻿<testsuite
 name="RandomValuesExample"
 rxversion="5.4.0.24580"
-id="9562707e-c758-4c6e-963a-e5028509358d">
-  <content>
-    <testcase name="TestCase" id="498a1b99-1e2d-4a2a-a00b-6302f49b3d63">
-      <testmodule name="Recording1" id="039370af-1259-4813-8232-3eff9296c4ea" ref="446a4920-6f01-4ba2-a975-b0c11488d07e" type="Recording"/>
-    </testcase>
-  </content>
-  <testconfigurations default="TestRun">
-    <testconfiguration name="TestRun">
-      <testcase id="498a1b99-1e2d-4a2a-a00b-6302f49b3d63"/>
-    </testconfiguration>
-  </testconfigurations>
-  <references/>
+id="9562707e-c758-4c6e-963a-e5028509358d"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="498a1b99-1e2d-4a2a-a00b-6302f49b3d63"/>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="498a1b99-1e2d-4a2a-a00b-6302f49b3d63"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
 </testsuite>
