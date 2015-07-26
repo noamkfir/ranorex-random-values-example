@@ -50,9 +50,9 @@ namespace RandomValuesExample.Modules
         /// that will in turn invoke this method.</remarks>
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.0;
+        	var random = new Random();
+        	var value = random.Next();
+        	Output = value.ToString();
         }
     }
 }
